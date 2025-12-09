@@ -27,7 +27,7 @@ connectDB();
 
 // app.use(                                    
 //     cors({
-//         origin: 'https://graph-frontend-xol8.onrender.com', // frontend link
+//         origin: 'https://graph-visualizer-ui-prlj.onrender.com', // frontend link
 //         // origin: process.env.FRONTEND_URL,
 //         // origin: "*",
 //         credentials: true
@@ -38,7 +38,7 @@ connectDB();
 // if want to use mulltiple cors origins
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://graph-frontend-xol8.onrender.com' // Add your production frontend URL here
+    'https://graph-visualizer-ui-prlj.onrender.com' // Add your production frontend URL here
 ];
 
 app.use(
